@@ -1,0 +1,150 @@
+.entry {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-height: 100vh;
+    /* background-image: linear-gradient( to right bottom, #321b383e, #dc8ea6 ), url('../../images/1.jpg'); */
+    background-image: linear-gradient( to bottom, #5a419b3e, #222222 ), url('../../Assets/images/1.jpg');
+    background-size: cover;
+    flex-direction: column;
+}
+
+.container {
+    width: 75%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    background-image:url('../../Assets/images/Icell4.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translateY(36px);
+}
+
+.nit-logo {
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    opacity: 64%;
+    transform: translate(-50%, -105%);
+}
+
+.container .card {
+    padding: 20px;
+    width: 100%;
+    height: 325px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 36px;
+    background: linear-gradient( to left top, #222222b1, #5a419bb3 );
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.container .card .content {
+    width: 275px;
+    text-align: center;
+    transform: translateY(-24px);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+/* .container .card .content h2 {
+    position: absolute;
+    top: -30px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+    opacity: 0;
+} */
+
+.container .card .content h3 {
+    font-size: 1.8em;
+    color: #fff;
+    z-index: 1;
+    margin-bottom: 24px;
+}
+
+.container .card .content p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.container .card .content button {
+    background-color: #5a419b;
+    width: 100%;
+    font-family: poppins, 'sans-serif';
+    display: inline-block;
+    padding: 0.8rem;
+    margin-top: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.container .card .content button:hover {
+    background-color: #7257b5;
+}
+
+.content p input[type="text"] {
+    width: -webkit-fill-available;
+    font-size: 16px;
+    padding: 0.8rem;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logos img {
+    height : 70px;
+}
+/* 66e0b2 */
+/* 336ce2 */
+.powered {
+    color: #ffffff;
+    font-size: 14px;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.icell {
+    background: linear-gradient(to top, #66e0b2 15%, #3675cf 85%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+@media(max-width: 389px) {
+    .powered {
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width: 330px) {
+    .powered {
+        font-size: 10px;
+    }
+}

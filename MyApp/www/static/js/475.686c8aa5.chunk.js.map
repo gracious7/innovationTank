@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/475.686c8aa5.chunk.js","mappings":"sJAEA,MAMA,EANaA,KAETC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,Q","sources":["Pages/Feed/Feed.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nconst Feed = () => {\r\n  return (\r\n    <div>Feed</div>\r\n  )\r\n}\r\n\r\nexport default Feed"],"names":["Feed","_jsx","children"],"sourceRoot":""}

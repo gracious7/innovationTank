@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkstocksup=self.webpackChunkstocksup||[]).push([[475],{9475:(s,e,c)=>{c.r(e),c.d(e,{default:()=>k});c(2791);var u=c(184);const k=()=>(0,u.jsx)("div",{children:"Feed"})}}]);
+//# sourceMappingURL=475.686c8aa5.chunk.js.map

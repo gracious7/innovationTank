@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+.get-started {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    height: 100vh;
+    /* background-image: linear-gradient( to right bottom, #321b383e, #dc8ea6 ), url('../../images/1.jpg'); */
+    background-image: linear-gradient( to bottom, #5a419b3e, #222222 ), url('../../Assets/images/1.jpg');
+    background-size: cover;
+    padding-top: 20px;
+}
+
+/***LOGO SECTION***/
+.logo-section {
+    grid-row: 1/span 4;
+    align-self: center;
+    justify-self: center;
+    margin-top: 4.5rem;
+}
+
+.app-logo {
+    width: 80px;
+    height: 80px;
+}
+
+.logo-name {
+    font-family: 'Paytone One', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 36px;
+}
+
+.name {
+    font-size: 44px;
+    font-weight: 550;
+    color: white;
+    /* color: #d2cbe2; */
+}
+
+.tagline {
+    color: white;
+    /* color: #d2cbe2; */
+}
+
+/***BUTTON SECTION***/
+.get-started-btn-section {
+    grid-row: span 1;
+    align-self: end;
+    justify-self: center;
+}
+
+.get-started-btn ,.get-started-btn:active {
+    font-family: poppins, 'sans-serif';
+    font-weight: 500;
+    font-size: 16px;
+    /* color: #95528b; */
+    color: #5a419b;
+    padding: 12px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    transition: all 500ms;
+}
+
+.get-started-btn:hover {
+    background-color: #5a419b;
+    color: #fff;
+}
+
+@media(max-width: 372px) {
+    .name {
+        font-size: 36px;
+    }
+
+    .app-logo {
+        scale: 0.9;
+    }
+
+    .tagline {
+        font-size: 0.9rem;
+    }
+
+    .get-started-btn {
+        padding: 10px;
+    }
+}

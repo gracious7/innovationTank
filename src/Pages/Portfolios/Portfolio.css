@@ -1,0 +1,31 @@
+.portfolio-section {
+    padding: 6.5rem 1rem 1rem 1rem;
+}
+
+.portfolio-card {
+    color: #cccccc;
+    padding: 10px 10px 10px 16px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    background: linear-gradient( to left top, #222222ef, #5a419b93 ), url('../../Assets/images/BG2.1.jpg');
+    background-size: cover;
+    background-position: top;
+    text-align:left;
+    margin-bottom: 28px;
+}
+
+.portfolio-card:last-child {
+    margin-bottom: 8px;
+}
+
+.card-content {
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+    margin: 8px 0;
+}
+
+.card-heading {
+    display: inline-block;
+    margin: 2px 0;
+}

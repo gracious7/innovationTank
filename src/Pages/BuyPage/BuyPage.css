@@ -1,0 +1,117 @@
+.buy-page {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    background-image: linear-gradient( to bottom, #5a419b3e, #222222 ), url('../../Assets/images/1.jpg');
+    background-size: cover;
+    /* padding-top: 20px; */
+}
+
+.LineChart {
+    max-width: 95%;
+}
+.buy-page-details{
+    display: flex;
+    flex-direction: column;
+    font-family: poppins, 'sans-serif';
+    height: 70vh;
+    background-color: #b29de73e;
+    color : white;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 126px;
+    margin-bottom: 6px;
+    align-items: center;
+}
+
+.buy-page-carousel {
+    max-width: 90%;
+    width: 90%;
+
+    height: 80%;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+
+.carousel-left{
+    margin-left: 0;
+}
+
+.buy-page-details h2 {
+text-align: center;
+width: 100%;
+margin-top: 25px;
+}
+
+.buy-amount::placeholder {
+    color: #6c37f3 ; /* Change this to the desired darkened color */
+}
+
+.buy-page-input button {
+    background-color: #5a419b;
+    width: 100%;
+    font-family: poppins, 'sans-serif';
+    display: inline-block;
+    padding: 1rem;
+    margin-top: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transform: translateY(-7px);
+    -webkit-transform: translateY(-7px);
+    -moz-transform: translateY(-7px);
+    -ms-transform: translateY(-7px);
+    -o-transform: translateY(-7px);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.buy-page-input button:active {
+    background-color:#462e85;
+}
+
+.buy-page-input {
+    max-width: 80% ;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+}
+
+.buy-page-input p input[type="number"] { 
+    margin-right: 5px;
+    text-align: center;
+    font-size: 16px;
+    padding: 0.8rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-family: poppins, 'sans-serif';
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.buy-page-carousel
+{
+    display: flex;
+}
+
+.line-chart {
+    color: white !important;
+}

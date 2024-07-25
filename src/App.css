@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: 'poppins', sans-serif;
+  background: linear-gradient( to bottom, #5a419b3e, #222222 ), url("./Assets/images/1.jpg");
+  background-attachment: fixed;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  color: white;
+  height: 100%;
+  /* backdrop-filter: blur(6px); */
+}
+
+.App{
+  height: 100%;
+}
+
+/* .hidden {
+  display: none;
+} */
